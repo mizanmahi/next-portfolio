@@ -27,7 +27,7 @@ const Hero = () => (
                   'https://drive.google.com/file/d/1bGH-7kDpVqVL_q3pFHAYfDIep6w3jpyH/view?usp=sharing')
             }
          >
-            Download My CV
+         My Resume
          </Button>
       </LeftSection>
    </Section>

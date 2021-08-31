@@ -31,7 +31,9 @@ const Footer = () => {
          </LinkList>
          <SocialIconsContainer>
             <CompanyContainer>
-               <Slogan>Innovating one project at a time.</Slogan>
+               <Slogan>
+               © 2021 Mizanur Rahman
+               </Slogan>
             </CompanyContainer>
             <SocialContainer>
                <SocialIcons href='https://github.com/mizanmahi'>
@@ -40,7 +42,7 @@ const Footer = () => {
                <SocialIcons href='https://www.linkedin.com/in/mizan-mahi/'>
                   <AiFillLinkedin size='3rem' />
                </SocialIcons>
-               <SocialIcons href='https://www.instagram.com/'>
+               <SocialIcons href='https://www.instagram.com/mizan_mahi/'>
                   <AiFillInstagram size='3rem' />
                </SocialIcons>
             </SocialContainer>

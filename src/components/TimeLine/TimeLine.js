@@ -10,6 +10,7 @@ import {
    CarouselItemText,
    CarouselItemTitle,
    CarouselMobileScrollNode,
+   AboutTitle,
 } from './TimeLineStyles';
 import {
    Section,
@@ -66,9 +67,15 @@ const Timeline = () => {
    return (
       <Section id='about'>
          <SectionTitle>About Me</SectionTitle>
-         <SectionText>
-         A Passionate Tech Enthusiast Who Constantly Seek Knowledge. I love to build amazing web products!
-         </SectionText>
+
+         <AboutTitle>
+            <p>
+               A Passionate Tech Enthusiast Who Constantly Seek Knowledge. I
+               love to build amazing web products!
+            </p>
+            <img src='./images/me.png' alt='My Image' />
+         </AboutTitle>
+
          <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
             <>
                {TimeLineData.map((item, i) => (

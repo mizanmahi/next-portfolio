@@ -73,6 +73,7 @@ export const CarouselItemTitle = styled.h4`
   /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
   background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 8px;
 
@@ -89,6 +90,7 @@ export const CarouselItemTitle = styled.h4`
 `
 export const CarouselItemImg = styled.svg`
   margin-left: 21px;
+  mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
   -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
   width: 100%;
 
@@ -151,4 +153,19 @@ export const CarouselButtonDot = styled.div`
   margin: auto;
   width: 3px;
   height: 3px;
+`
+export const AboutTitle = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-space-around;
+  align-items: center;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 300;
+  padding-bottom: 3.6rem;
+  color: rgba(255, 255, 255, 0.5);
+
+  @media (max-width: 640px){
+    flex-direction: column;
+  }
 `

@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Moments Mern App (working on it)',
-    description: "This is mern project in which I'am currently working on as a pratise project. By building this I am learnig so many advanced feature of node, express and mongo and also the meretial UI.",
+    description: "This is a mern stack project in which I'am currently working on. By building this I am learnig so many advanced feature of node, express and mongo and also the meretial UI.",
       image: '/images/3.png',
       tags: ['React', 'Node', 'Express', 'Mongo', 'Material Ui'],
     source: 'https://github.com/mizanmahi/mern-moments-app',
@@ -42,7 +42,7 @@ export const projects = [
     tags: ['Html', 'Css', 'Css Animation'],
     source: 'https://github.com/mizanmahi/shomin',
     visit: 'https://mizanmahi.github.io/shomin/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'React Task App',
@@ -51,7 +51,7 @@ export const projects = [
     tags: ['React'],
     source: 'https://github.com/mizanmahi/react-task-app',
     visit: 'https://react-task-live.herokuapp.com/',
-    id: 3,
+    id: 5,
   },
 ];
 

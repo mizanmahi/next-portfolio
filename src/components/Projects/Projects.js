@@ -54,10 +54,10 @@ const Projects = () => (
                      </TagList>
                   </div>
                   <UtilityList>
-                     <ExternalLinks href={visit}>Visit Site</ExternalLinks>
-                     <ExternalLinks href={source}>Client Code</ExternalLinks>
+                     <ExternalLinks href={visit} target='_blank' >Visit Site</ExternalLinks>
+                     <ExternalLinks href={source} target='_blank'>Client Code</ExternalLinks>
                      {serverCode && (
-                        <ExternalLinks href={serverCode}>
+                        <ExternalLinks href={serverCode} target='_blank'>
                            Server Code
                         </ExternalLinks>
                      )}

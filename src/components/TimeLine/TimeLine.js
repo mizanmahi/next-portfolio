@@ -69,11 +69,10 @@ const Timeline = () => {
          <SectionTitle>About Me</SectionTitle>
 
          <AboutTitle>
-            <p>
+            <p style={{maxWidth: '55rem'}}>
                A Passionate Tech Enthusiast Who Constantly Seek Knowledge. I
                love to build amazing web products!
             </p>
-            <img src='./images/me.png' alt='My Image' />
          </AboutTitle>
 
          <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

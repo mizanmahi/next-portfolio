@@ -1,63 +1,85 @@
 export const projects = [
-  {
-    title: 'FEM Social Meadia Dashboard',
-    description: "Using Html, Sass, Css custom variables and javascript I built this social media dashboard. This was a challenge from frontend mentor. It has the theme toggling feature between dark and light.",
+   {
+      title: 'Full stack e-commerce application (MERN)',
+      description:
+         "I've Developed this eCommerce application using MERN technologies. Users can create accounts and order products also can manage the orders from the dashboard. Implemented role-based functionality and ui. Utilized Firebase for authentication.",
+      image: '/images/arena.png',
+      tags: ['React', 'Node', 'Firebase', 'MongoDb', 'MaterialUi'],
+      source: 'https://github.com/mizanmahi/shomin-arena',
+      serverCode: 'https://github.com/mizanmahi/shomin-arena-backend',
+      visit: 'https://shomin-arena.web.app/',
+      id: 0,
+   },
+
+   {
+      title: 'Full-stack logistic application (MERN)',
+      description:
+         'Built this logistic application where users can buy services. Users can create an account and log in to their account and manage the orders. Users can also subscribe to our newsletter by email. ',
+      image: '/images/shomex.png',
+      tags: ['React', 'Node', 'MongoDb', 'Tailwind', 'Firebase'],
+      source: 'https://github.com/mizanmahi/shomex-client',
+      serverCode: 'https://github.com/mizanmahi/shomex-server',
+      visit: 'https://shomex-bd.web.app/',
+      id: 1,
+   },
+   {
+      title: 'Sebok Medicare Web App (React)',
+      description:
+         'Developed this project to explore Firebase authentication and handling form by React hook form. Utilized Material UI for responsive and smooth design.',
+      image: '/images/sebok.png',
+      tags: ['React', 'MaterialUi', 'Firebase', 'ReactRouter'],
+      source: 'https://github.com/mizanmahi/Sebok-React',
+      visit: 'https://sebok-2b3c9.web.app/',
+      id: 2,
+   },
+   {
+      title: 'FEM Social Media Dashboard',
+      description:
+         'Using Html, Sass, Css custom variables and javascript I built this social media dashboard. This was a challenge from frontend mentor. It has the theme toggling feature between dark and light.',
       image: '/images/1.png',
       tags: ['SemanticHtml', 'CssGrid', 'Dart-sass', 'Javascript'],
-    source: 'https://github.com/mizanmahi/fem-smdb-theme-toggler',
-    visit: 'https://smdb-dark-light-theme.netlify.app/',
-    id: 0,
-  },
-  {
-    title: 'React Movies (API PROJECT)',
-    description:"While building it I've learned many React & JavaScript topics, as well as how to read api documentation and use them for our needs. This was fun building it.",
-    image: '/images/2.png',
-    tags: ['React', 'TavaScript', 'Styled Components'],
-    source: 'https://github.com/mizanmahi/react-movies-ts',
-    visit: 'https://moviedb-reactjs.netlify.app/',
-    id: 1,
-  },
-  {
-    title: 'Moments Mern App (working on it)',
-    description: "This is a mern stack project in which I'am currently working on. By building this I am learnig so many advanced feature of node, express and mongo and also the meretial UI.",
-      image: '/images/3.png',
-      tags: ['React', 'Node', 'Express', 'Mongo', 'Material Ui'],
-    source: 'https://github.com/mizanmahi/mern-moments-app',
-    visit: 'https://moments-mern-app-bymahi.netlify.app/',
-    id: 2,
-  },
-  {
-    title: 'Shomin React App',
-    description: "This is an ecommerce application built by React, redux and firebase and many more frontend tools. This is also a practise project. And I learned so many new topics while building this project.",
-    image: '/images/4.png',
-    tags: ['React', 'Redux', 'Redux-saga', 'Firebase'],
-    source: 'https://github.com/mizanmahi/shomin-react-app',
-    visit: 'https://shomin-live.herokuapp.com/',
-    id: 3,
-  },
-  {
-    title: 'Shomin Html and Css Template',
-    description: "This is a fully responsive html template built using just only semantic Html and modern Css features like animation and flexbox.",
-    image: '/images/5.png',
-    tags: ['Html', 'Css', 'Css Animation'],
-    source: 'https://github.com/mizanmahi/shomin',
-    visit: 'https://mizanmahi.github.io/shomin/',
-    id: 4,
-  },
-  {
-    title: 'React Task App',
-    description: "This is a react todo like task app. I created this for practising context api of react. It has some cool functionality. User can create and delete tasks",
-    image: '/images/6.png',
-    tags: ['React'],
-    source: 'https://github.com/mizanmahi/react-task-app',
-    visit: 'https://react-task-live.herokuapp.com/',
-    id: 5,
-  },
+      source: 'https://github.com/mizanmahi/fem-smdb-theme-toggler',
+      visit: 'https://smdb-dark-light-theme.netlify.app/',
+      id: 3,
+   },
+   {
+      title: 'React Movies (API PROJECT)',
+      description:
+         "While building it I've learned many React & JavaScript topics, as well as how to read api documentation and use them for our needs. This was fun building it.",
+      image: '/images/2.png',
+      tags: ['React', 'JavaScript', 'Styled Components'],
+      source: 'https://github.com/mizanmahi/react-movies-ts',
+      visit: 'https://moviedb-reactjs.netlify.app/',
+      id: 4,
+   },
+
+   {
+      title: 'Shomin Html and Css Template',
+      description:
+         'This is a fully responsive html template built using just only semantic Html and modern Css features like animation and flexbox.',
+      image: '/images/5.png',
+      tags: ['Html', 'Css', 'Css Animation'],
+      source: 'https://github.com/mizanmahi/shomin',
+      visit: 'https://mizanmahi.github.io/shomin/',
+      id: 5,
+   },
 ];
 
 export const TimeLineData = [
-  { year: 2018, text: 'Become Interested and start to learn fornt-end basics.', },
-  { year: 2019, text: 'Took some Javascript course and build some small projectts.', },
-  { year: 2020, text: 'Started to learn modern technologies of front-end and backend.', },
-  { year: 2021, text: 'Started to build some project to enhance my knowledge.', },
+   {
+      year: 2018,
+      text: 'Become Interested and start to learn front-end basics.',
+   },
+   {
+      year: 2019,
+      text: 'Took some Javascript course and build some small projects.',
+   },
+   {
+      year: 2020,
+      text: 'Started to learn modern technologies of front-end and backend.',
+   },
+   {
+      year: 2021,
+      text: 'Started to build some project to enhance my knowledge.',
+   },
 ];

@@ -12,7 +12,7 @@ import {
    TitleContent,
    UtilityList,
    Img,
-   SeemoreButton
+   SeemoreButton,
 } from './ProjectsStyles';
 import {
    Section,
@@ -23,12 +23,21 @@ import {
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
-   <section nopadding id='projects'>
+   <section noPadding id='projects' style={{padding: '1rem 1rem 0'}}>
       <SectionDivider />
-      <SectionText main>Projects</SectionText>
+      <SectionText>Projects</SectionText>
       <GridContainer>
          {projects.map(
-            ({ title, id, image, description, tags, source, visit }) => (
+            ({
+               title,
+               id,
+               image,
+               description,
+               tags,
+               source,
+               visit,
+               serverCode,
+            }) => (
                <BlogCard key={id}>
                   <Img src={image} alt='Project Thumbnail' />
                   <TitleContent>
@@ -45,20 +54,21 @@ const Projects = () => (
                      </TagList>
                   </div>
                   <UtilityList>
-                     <ExternalLinks href={visit}>
-                        Visit Site
-                     </ExternalLinks>
-                     <ExternalLinks href={source}>
-                        Source Code
-                     </ExternalLinks>
+                     <ExternalLinks href={visit}>Visit Site</ExternalLinks>
+                     <ExternalLinks href={source}>Client Code</ExternalLinks>
+                     {serverCode && (
+                        <ExternalLinks href={serverCode}>
+                           Server Code
+                        </ExternalLinks>
+                     )}
                   </UtilityList>
                </BlogCard>
             )
          )}
       </GridContainer>
       <SeemoreButton href='https://github.com/mizanmahi'>
-      See Full List..
-   </SeemoreButton>
+         See More On Github
+      </SeemoreButton>
    </section>
 );
 

@@ -156,9 +156,6 @@ export const CarouselButtonDot = styled.div`
 `
 export const AboutTitle = styled.div`
   width: 100%;
-  display: flex;
-  justify-content: space-space-around;
-  align-items: center;
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;

@@ -17,17 +17,18 @@ const Hero = () => (
             Mizanur Rahman
          </SectionTitle>
          <SectionText>
-            I am a self-taught web developer with good knowledge of front-end
-            techniques and as well as back-end. I love spending time fixing
-            little details and optimizing codes.
+            I'm a full-stack JavaScript developer with a passion for developing
+            scalable web applications and working across the full stack. I've
+            built some web apps from the ground up using ReactJs, NodeJs, and
+            MongoDB.
          </SectionText>
          <Button
             onClick={() =>
                (window.location =
-                  'https://drive.google.com/file/d/1bGH-7kDpVqVL_q3pFHAYfDIep6w3jpyH/view?usp=sharing')
+                  'https://drive.google.com/uc?export=download&id=1bGH-7kDpVqVL_q3pFHAYfDIep6w3jpyH')
             }
          >
-         My Resume
+            My Resume
          </Button>
       </LeftSection>
    </Section>

@@ -14,6 +14,7 @@ export const Form = styled.form`
       outline: none;
       padding: 0.2rem 1rem;
       margin-bottom: 2rem;
+      color: #fff;
    }
    & textarea {
       height: 100px;

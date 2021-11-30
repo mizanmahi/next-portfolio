@@ -57,6 +57,8 @@ const arena = () => {
             Full stack e-commerce application (MERN)
             </Typography>
             <Button
+         target='_blank'
+
                component='a'
                href='https://github.com/mizanmahi/shomin-arena'
                variant='contained'
@@ -65,6 +67,8 @@ const arena = () => {
                Client Code
             </Button>
             <Button
+         target='_blank'
+
                component='a'
                href='https://github.com/mizanmahi/shomin-arena-backend'
                variant='contained'
@@ -102,6 +106,8 @@ const arena = () => {
                ))}
             </Typography>
             <Button
+         target='_blank'
+
                component='a'
                href='https://shomin-arena.web.app/'
                variant='contained'

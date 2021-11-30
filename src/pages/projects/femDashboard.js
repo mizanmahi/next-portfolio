@@ -57,6 +57,8 @@ const shomex = () => {
                Social Media Dashboard With Dark and Light Theme
             </Typography>
             <Button
+         target='_blank'
+
                component='a'
                href='https://github.com/mizanmahi/fem-smdb-theme-toggler'
                variant='contained'
@@ -88,6 +90,8 @@ const shomex = () => {
                )}
             </Typography>
             <Button
+         target='_blank'
+
                component='a'
                href='https://smdb-dark-light-theme.netlify.app/'
                variant='contained'

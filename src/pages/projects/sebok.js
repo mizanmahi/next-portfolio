@@ -57,6 +57,7 @@ const sebok = () => {
                Sebok Medicare Web App (React)
             </Typography>
             <Button
+               target='_blank'
                component='a'
                href='https://github.com/mizanmahi/Sebok-React'
                variant='contained'
@@ -92,6 +93,7 @@ const sebok = () => {
                ))}
             </Typography>
             <Button
+               target='_blank'
                component='a'
                href='https://sebok-2b3c9.web.app/'
                variant='contained'

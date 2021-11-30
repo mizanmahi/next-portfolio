@@ -80,7 +80,7 @@ const Projects = () => (
                            borderRadius: 0,
                            p: '.7rem 2.5rem',
                            color: 'rgba(255,255,255,0.7)',
-                           my: 2
+                           my: 2,
                         }}
                         type='submit'
                      >
@@ -91,9 +91,27 @@ const Projects = () => (
             )
          )}
       </GridContainer>
-      <SeemoreButton href='https://github.com/mizanmahi'>
-         See More On Github
-      </SeemoreButton>
+
+      <Button
+         component='a'
+         variant='contained'
+         href='https://github.com/mizanmahi'
+         target='_blank'
+         sx={{
+            bgcolor: '#212d45',
+            fontSize: '1.3rem',
+            borderRadius: 0,
+            p: '.7rem 2.5rem',
+            color: 'rgba(255,255,255,0.7)',
+            my: 2,
+            mx: 'auto',
+            display: 'block',
+            width: '17.5rem',
+         }}
+         type='submit'
+      >
+         More On Github
+      </Button>
    </section>
 );
 

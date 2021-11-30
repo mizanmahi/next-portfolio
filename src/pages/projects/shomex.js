@@ -57,6 +57,8 @@ const shomex = () => {
                Full-stack logistic application (MERN)
             </Typography>
             <Button
+         target='_blank'
+
                component='a'
                href='https://github.com/mizanmahi/shomex-client'
                variant='contained'
@@ -65,6 +67,8 @@ const shomex = () => {
                Client Code
             </Button>
             <Button
+         target='_blank'
+
                component='a'
                href='https://github.com/mizanmahi/shomex-server'
                variant='contained'
@@ -102,6 +106,8 @@ const shomex = () => {
                ))}
             </Typography>
             <Button
+         target='_blank'
+
                component='a'
                href='https://shomex-bd.web.app/'
                variant='contained'

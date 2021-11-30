@@ -51,6 +51,11 @@ const Header = () => (
                <NavLink>Contact</NavLink>
             </Link>
          </li>
+         <li>
+            <Link href='/blog'>
+               <NavLink>Blog</NavLink>
+            </Link>
+         </li>
       </Div2>
       <Div3>
          <SocialIcons href='https://github.com/mizanmahi' target='_blank'>

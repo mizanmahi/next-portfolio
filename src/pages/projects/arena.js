@@ -11,7 +11,6 @@ const arena = () => {
             mx: 'auto',
             p: 1,
             my: 10,
-            height: '70vh',
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',

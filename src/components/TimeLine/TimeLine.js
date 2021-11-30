@@ -66,10 +66,12 @@ const Timeline = () => {
 
    return (
       <Section id='about'>
+         <SectionDivider />
+         <br />
          <SectionTitle>About Me</SectionTitle>
 
          <AboutTitle>
-            <p style={{maxWidth: '55rem'}}>
+            <p style={{ maxWidth: '55rem' }}>
                A Passionate Tech Enthusiast Who Constantly Seek Knowledge. I
                love to build amazing web products!
             </p>

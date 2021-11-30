@@ -10,8 +10,7 @@ const shomex = () => {
             maxWidth: '1200px',
             mx: 'auto',
             p: 1,
-            my: 5,
-            height: '70vh',
+            my: 10,
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
@@ -55,7 +54,7 @@ const shomex = () => {
             </Grid>
 
             <Typography variant='h3' sx={{ mt: 5, mb: 1 }}>
-            Social Media Dashboard With Dark and Light Theme
+               Social Media Dashboard With Dark and Light Theme
             </Typography>
             <Button
                component='a'
@@ -68,30 +67,25 @@ const shomex = () => {
             <Typography variant='h4' component='p' sx={{ my: 3 }}>
                This was a challenge from the front-end mentor. This is a fully
                responsive dashboard with light and dark theme. User can switch
-               to their preferred theme.
+               to their preferred theme. Used CSS Grid nad FlexBox for layout.
+               Used semantic tags for markups.
             </Typography>
             <Typography variant='h4' component='p' sx={{ my: 3 }}>
                Used: &nbsp;
-               {[
-                  'React',
-                  'React Hook Form',
-                  'Firebase',
-                  'Nodejs',
-                  'MongoDB',
-                  'TailwindCss',
-                  'React Router',
-               ].map((techno, i) => (
-                  <Chip
-                     key={i}
-                     label={techno}
-                     variant='outlined'
-                     sx={{
-                        color: 'rgba(255,255,255, 0.7)',
-                        fontSize: '1.5rem',
-                        m: 1,
-                     }}
-                  />
-               ))}
+               {['HTML', 'Semantic Markups', 'CSS3', 'SASS', 'Javascript'].map(
+                  (techno, i) => (
+                     <Chip
+                        key={i}
+                        label={techno}
+                        variant='outlined'
+                        sx={{
+                           color: 'rgba(255,255,255, 0.7)',
+                           fontSize: '1.5rem',
+                           m: 1,
+                        }}
+                     />
+                  )
+               )}
             </Typography>
             <Button
                component='a'

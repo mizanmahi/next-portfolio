@@ -10,7 +10,7 @@ const shomex = () => {
             maxWidth: '1200px',
             mx: 'auto',
             p: 1,
-            my: 5,
+            my: 10,
             height: '70vh',
             display: 'flex',
             justifyContent: 'center',

@@ -63,7 +63,7 @@ export const NavLink = styled.a`
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.3rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 
   }
 `;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiCode, DiFirebase, DiNetbeans, DiReact, DiStackoverflow, DiZend } from 'react-icons/di';
 import {
    Section,
    SectionDivider,
@@ -58,7 +58,7 @@ const Technologies = () => (
          </ListItem>
 
          <ListItem>
-            <DiZend size='3rem' />
+            <DiCode size='3rem' />
             <ListContainer>
                <ListTitle>Fullstack</ListTitle>
                <ListParagraph>
@@ -69,7 +69,7 @@ const Technologies = () => (
          </ListItem>
 
          <ListItem>
-            <DiZend size='3rem' />
+            <DiNetbeans size='3rem' />
             <ListContainer>
                <ListTitle>Tools</ListTitle>
                <ListParagraph>
@@ -80,7 +80,7 @@ const Technologies = () => (
          </ListItem>
 
          <ListItem>
-            <DiZend size='3rem' />
+            <DiStackoverflow size='3rem' />
             <ListContainer>
                <ListTitle>Still Learning</ListTitle>
                <ListParagraph>

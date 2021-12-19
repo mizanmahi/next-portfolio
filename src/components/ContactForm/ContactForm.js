@@ -46,7 +46,7 @@ const ContactForm = () => {
          <SectionTitle>Contact Me</SectionTitle>
          <SectionText>I would love to hear from you!</SectionText>
          <Grid container justifyContent='center'>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={8}>
                <Form ref={form} onSubmit={sendEmail}>
                   <input type='text' name='name' placeholder='Name'   required />
                   <input type='email' placeholder='Email' name='email'  required  />
@@ -58,7 +58,7 @@ const ContactForm = () => {
                         bgcolor: '#212d45',
                         fontSize: '1.3rem',
                         borderRadius: 0,
-                        p: '.7rem 2.5rem',
+                        p: '1rem 3rem',
                         color: 'rgba(255,255,255,0.7)',
                      }}
                      type='submit'

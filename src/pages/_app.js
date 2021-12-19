@@ -1,6 +1,9 @@
 import Theme from '../styles/theme';
 import 'react-toastify/dist/ReactToastify.css';
 
+// import 'aos/dist/aos.css';
+
+
 export default function App({ Component, pageProps }) {
   return (
     <>

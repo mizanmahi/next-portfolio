@@ -25,7 +25,7 @@ import { projects } from '../../constants/constants';
 import { Button } from '@mui/material';
 
 const Projects = () => (
-   <section noPadding id='projects' style={{ padding: '1rem 1rem 0' }}>
+   <section nopadding id='projects' style={{ padding: '1rem 1rem 0' }}>
       <SectionDivider />
       <br />
       <SectionTitle>Projects</SectionTitle>
@@ -41,8 +41,8 @@ const Projects = () => (
                visit,
                serverCode,
                route,
-            }) => (
-               <BlogCard key={id}>
+            }, i) => (
+               <BlogCard key={id} >
                   <Img src={image} alt='Project Thumbnail' />
                   <TitleContent>
                      <HeaderThree title>{title}</HeaderThree>

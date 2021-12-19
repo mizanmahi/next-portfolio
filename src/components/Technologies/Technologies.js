@@ -21,7 +21,7 @@ const Technologies = () => (
       <SectionTitle>Technologies</SectionTitle>
       <SectionText>
          I've worked with a range of technologies in the web development world.
-         From desion to backend.
+         From design to backend.
       </SectionText>
       <List>
          <ListItem>
@@ -30,7 +30,7 @@ const Technologies = () => (
                <ListTitle>Front-End</ListTitle>
                <ListParagraph>
                   Experience with <br />
-                  Html, Css, Sass, Bootstrap, Tailwind, Javascript, React.js and React-Redux etc.
+                  Html, Css, Sass, Bootstrap, TailwindCss, Javascript, ReactJS, React-router, MaterialUI, Redux etc.
                </ListParagraph>
             </ListContainer>
          </ListItem>
@@ -41,7 +41,7 @@ const Technologies = () => (
                <ListTitle>Backend</ListTitle>
                <ListParagraph>
                   Experience with <br />
-                  Node.js And MongoDb
+                  Node.js, MongoDb, Mongoose, Firebase, JWT etc.
                </ListParagraph>
             </ListContainer>
          </ListItem>
@@ -52,7 +52,40 @@ const Technologies = () => (
                <ListTitle>Design</ListTitle>
                <ListParagraph>
                   Experience with <br />
-                  Tools Lke Figma and Adobe Photoshop.
+                  Tools like Figma, Adobe PhotoShop, Adobe XD etc.
+               </ListParagraph>
+            </ListContainer>
+         </ListItem>
+
+         <ListItem>
+            <DiZend size='3rem' />
+            <ListContainer>
+               <ListTitle>Fullstack</ListTitle>
+               <ListParagraph>
+                  Experience with <br />
+                  The React framework for production NextJS
+               </ListParagraph>
+            </ListContainer>
+         </ListItem>
+
+         <ListItem>
+            <DiZend size='3rem' />
+            <ListContainer>
+               <ListTitle>Tools</ListTitle>
+               <ListParagraph>
+                  Experience with <br />
+                  Tools like Axios, Heroku, Netlify, Firebase, Git, Github, Gitlab, Jira, Slack etc.
+               </ListParagraph>
+            </ListContainer>
+         </ListItem>
+
+         <ListItem>
+            <DiZend size='3rem' />
+            <ListContainer>
+               <ListTitle>Still Learning</ListTitle>
+               <ListParagraph>
+                  Experience with <br />
+                  GraphQL, Gatsby, Apollo, Golang, MySql, React Native
                </ListParagraph>
             </ListContainer>
          </ListItem>

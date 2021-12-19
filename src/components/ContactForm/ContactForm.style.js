@@ -8,7 +8,7 @@ export const Form = styled.form`
    & input,
    & textarea {
       width: 90%;
-      height: 40px;
+      height: 50px;
       background: #212d45;
       border: none;
       outline: none;
@@ -17,6 +17,6 @@ export const Form = styled.form`
       color: #fff;
    }
    & textarea {
-      height: 100px;
+      height: 120px;
    }
 `;

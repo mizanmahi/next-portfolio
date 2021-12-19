@@ -3,6 +3,13 @@ import { Box } from '@mui/system';
 import React from 'react';
 import Link from 'next/link';
 
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css';
+
+// https://i.ibb.co/tZgGNCp/exploree.png
+// https://i.ibb.co/pJHgjdg/dashboardd.png
+// https://i.ibb.co/xzNd1Rj/main.png
+
 const arena = () => {
    return (
       <Box
@@ -19,46 +26,51 @@ const arena = () => {
          <div>
             <Grid container spacing={2} justifyContent='center'>
                <Grid item lg={4} md={12} xs={12}>
-                  <img
-                     style={{
-                        maxWidth: '100%',
-                        margin: '0 auto',
-                        display: 'block',
-                     }}
-                     src='https://i.ibb.co/wY9X6f9/arena1.png'
-                     alt=''
-                  />
+                  <Zoom>
+                     <img
+                        style={{
+                           maxWidth: '100%',
+                           margin: '0 auto',
+                           display: 'block',
+                        }}
+                        src='https://i.ibb.co/xzNd1Rj/main.png'
+                        alt=''
+                     />
+                  </Zoom>
                </Grid>
                <Grid item lg={4} md={12} xs={12}>
-                  <img
-                     style={{
-                        maxWidth: '100%',
-                        margin: '0 auto',
-                        display: 'block',
-                     }}
-                     src='https://i.ibb.co/F8t282Z/arena3.png'
-                     alt=''
-                  />
+                  <Zoom>
+                     <img
+                        style={{
+                           maxWidth: '100%',
+                           margin: '0 auto',
+                           display: 'block',
+                        }}
+                        src='https://i.ibb.co/tZgGNCp/exploree.png'
+                        alt=''
+                     />
+                  </Zoom>
                </Grid>
                <Grid item lg={4} md={12} xs={12}>
-                  <img
-                     style={{
-                        maxWidth: '100%',
-                        margin: '0 auto',
-                        display: 'block',
-                     }}
-                     src='https://i.ibb.co/2k1TMyX/arena2.png'
-                     alt=''
-                  />
+                  <Zoom>
+                     <img
+                        style={{
+                           maxWidth: '100%',
+                           margin: '0 auto',
+                           display: 'block',
+                        }}
+                        src='https://i.ibb.co/pJHgjdg/dashboardd.png'
+                        alt=''
+                     />
+                  </Zoom>
                </Grid>
             </Grid>
 
             <Typography variant='h3' sx={{ mt: 5, mb: 1 }}>
-            Full stack e-commerce application (MERN)
+               Full stack e-commerce application (MERN)
             </Typography>
             <Button
-         target='_blank'
-
+               target='_blank'
                component='a'
                href='https://github.com/mizanmahi/shomin-arena'
                variant='contained'
@@ -67,8 +79,7 @@ const arena = () => {
                Client Code
             </Button>
             <Button
-         target='_blank'
-
+               target='_blank'
                component='a'
                href='https://github.com/mizanmahi/shomin-arena-backend'
                variant='contained'
@@ -91,7 +102,7 @@ const arena = () => {
                   'Nodejs',
                   'MongoDB',
                   'Material UI',
-                  'React Router'
+                  'React Router',
                ].map((techno, i) => (
                   <Chip
                      key={i}
@@ -106,8 +117,7 @@ const arena = () => {
                ))}
             </Typography>
             <Button
-         target='_blank'
-
+               target='_blank'
                component='a'
                href='https://shomin-arena.web.app/'
                variant='contained'

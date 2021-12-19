@@ -84,7 +84,7 @@ const Technologies = () => (
             <ListContainer>
                <ListTitle>Still Learning</ListTitle>
                <ListParagraph>
-                  Experience with <br />
+                  Exploring at free time <br />
                   GraphQL, Gatsby, Apollo, Golang, MySql, React Native
                </ListParagraph>
             </ListContainer>

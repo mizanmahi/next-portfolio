@@ -2,9 +2,11 @@ import { Button, Chip, Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 const shomex = () => {
    return (
+      <motion.div initial={{ x: '100vw' }} animate={{ x: 0 }} transition={{duration: .5}}>
       <Box
          sx={{
             maxWidth: '1200px',
@@ -126,6 +128,7 @@ const shomex = () => {
             </Link>
          </div>
       </Box>
+      </motion.div>
    );
 };
 

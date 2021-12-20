@@ -8,10 +8,6 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import ContactForm from '../components/ContactForm/ContactForm';
 
-
-// import AOS from 'aos';
-// AOS.init();
-
 const Home = () => {
    return (
       <Layout>

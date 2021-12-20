@@ -1,5 +1,5 @@
 import React from 'react';
-
+import CountUp from 'react-countup';
 import {
    Section,
    SectionDivider,
@@ -20,7 +20,7 @@ const Acomplishments = () => (
       <Boxes>
          {data.map((card, i) => (
             <Box key={i}>
-               <BoxNum>{card.number} +</BoxNum>
+               <BoxNum> <CountUp end={+card.number} duration={5}  /> +</BoxNum>
                <BoxText>{card.text}</BoxText>
             </Box>
          ))}
